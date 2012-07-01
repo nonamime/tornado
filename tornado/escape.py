@@ -67,6 +67,7 @@ def xhtml_escape(value):
     return _XHTML_ESCAPE_RE.sub(lambda match: _XHTML_ESCAPE_DICT[match.group(0)],
                                 to_basestring(value))
 
+def abc():
 
 def xhtml_unescape(value):
     """Un-escapes an XML-escaped string."""
